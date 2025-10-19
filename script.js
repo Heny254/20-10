@@ -819,7 +819,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [ 'https://github.com/Heny254/music/raw/refs/heads/main/phong-zin-zin.mp3',
-    'https://github.com/Heny254/music/raw/refs/heads/main/em-khong-le-loi.mp3', 'https://github.com/Heny254/music/raw/refs/heads/main/Perfect%20.mp3',
+    'https://github.com/Heny254/music/raw/refs/heads/main/em-khong-le-loi.mp3', 
     
   ];
   const randomIndex = Math.floor(Math.random() * audioSources.length);
