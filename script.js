@@ -709,13 +709,13 @@ function createTextRings() {
     ctx.shadowColor = '#e0b3ff';
     ctx.shadowBlur = 18;
     ctx.lineWidth = 7;
-    ctx.strokeStyle = '#fff';
+    ctx.strokeStyle = '#0e0d0dff';
     ctx.strokeText(fullText, 0, textureHeight * 0.82); // căn dòng thấp hơn
 
     // Hiệu ứng glow cho phần fill
     ctx.shadowColor = '#ffb3de';
     ctx.shadowBlur = 24;
-    ctx.fillStyle = '#fff';
+    ctx.fillStyle = '#000000ff';
     ctx.fillText(fullText, 0, textureHeight * 0.84);
 
     const ringTexture = new THREE.CanvasTexture(textCanvas);
