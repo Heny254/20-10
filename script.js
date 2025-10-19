@@ -706,16 +706,16 @@ function createTextRings() {
     ctx.textBaseline = 'alphabetic';
 
     // Hiệu ứng glow cho viền chữ
-    ctx.shadowColor = '#e1b3ffd5';
+    ctx.shadowColor = '#d9a8fad5';
     ctx.shadowBlur = 18;
     ctx.lineWidth = 7;
     ctx.strokeStyle = '#030303ff';
     ctx.strokeText(fullText, 0, textureHeight * 0.82); // căn dòng thấp hơn
 
     // Hiệu ứng glow cho phần fill
-    ctx.shadowColor = '#ffb3def3';
+    ctx.shadowColor = '#fcb4dcf3';
     ctx.shadowBlur = 24;
-    ctx.fillStyle = '#0e0d0dff';
+    ctx.fillStyle = '#131212ff';
     ctx.fillText(fullText, 0, textureHeight * 0.84);
 
     const ringTexture = new THREE.CanvasTexture(textCanvas);
